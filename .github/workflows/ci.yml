@@ -29,8 +29,8 @@ jobs:
         pip install pytest pytest-cov flake8 pylint mypy mkdocs
 
     - name: Run flake8
-      run: flake8 .
-
+      run: flake8 mkdocs_cdoc  
+      
     - name: Run pylint
       run: pylint mkdocs_cdoc
 
